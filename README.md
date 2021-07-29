@@ -1,7 +1,7 @@
 # Prisioner Island
 Alison Gissell Ruiz Ruiz
 
-Este proyecto contiene la solución a 3 desafios propuestos relacionados a data science. El contenido del desarrollo se encuentra en la carpeta workspace, donde cada solución posee su carpeta con el nombre relacionado al reto, los documentos ipynb contienen el desarrollo y explicación con el paso a paso realizado en cada uno de los puntos. El proyecto cuenta con dockerización, los pasos requeridos para emplearlo son:
+Este proyecto contiene la solución a 3 desafios propuestos relacionados a data science. El contenido del desarrollo se encuentra en la carpeta workspace, donde cada solución posee su carpeta con el nombre relacionado al reto, los documentos ipynb contienen el desarrollo y explicación con el paso a paso realizado en cada uno de los puntos.
 
 ## Configuración del entorno docker
 Instalar y configurar docker en su sistema operativo.
@@ -34,3 +34,8 @@ ssh -L 8888:localhost:8888 -p2222 prisoner@DOCKER-IP
 ```
 
 Reemplazando DOCKER-IP por la ip del adaptador de red de docker en el equipo host (generalmente es 172.22.64.1 pero puede llegar a cambiar).
+
+## Ejecución de las soluciones
+
+Una vez se tenga corriendo la imagen de docker se debe abrir la siguiente dirección http://localhost:8888/lab, pedirá un password: 12345678, se debe dirigir a la carpeta del workspace y allí encontrará cada una de las carpetas con su correspondiente notebook y los dataset.
+
