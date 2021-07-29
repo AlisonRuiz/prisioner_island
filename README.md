@@ -27,7 +27,7 @@ Esto le permitirá tener una terminal abierta dentro del contenedor, que estará
 
 Si esta usando Windows o Mac, o por alguna razon no le permite acceder al puerto del Jupyter-lab, puede usar redireccionamiento de puertos por SSH de la siguiente manera:
 
-*En una nueva termina, no importa si no es en el directorio del repositorio.
+*En una nueva terminal, no importa si no es en el directorio del repositorio.
 
 ```bash
 ssh -L 8888:localhost:8888 -p2222 prisoner@DOCKER-IP
